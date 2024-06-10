@@ -1,0 +1,50 @@
+.横並びA {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+
+	& .列 {
+		background-color: orange;
+		width: 80px;
+	}
+}
+
+.横並びB {
+	display: flex;
+	justify-content: space-between;
+
+	& .広い列 {
+		background-color: lightblue;
+		width: 200px;
+	}
+
+	& .狭い列 {
+		background-color: lightgreen;
+		width: 120px;
+	}
+}
+
+
+.動物横並び {
+	display: flex;
+	justify-content: space-between;
+	gap: 3px;
+}
+
+ & .動物 {
+	border: 1px solid black;
+	padding: 10px 10px 10px 10px;
+ }
+
+ & .画像 {
+	width: 100%;
+ }
+
+ & .名前 {
+	font-size: 20px;
+	font-weight: bold;
+ }
+
+ & .文章 {
+	font-size: 12px;
+ }
